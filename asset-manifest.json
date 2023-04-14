@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myrealdeals/static/css/main.5da1358a.css",
+    "main.js": "/myrealdeals/static/js/main.6931684c.js",
+    "static/media/Adamu_Builder.png": "/myrealdeals/static/media/Adamu_Builder.8d2b7277dfa537d2c9f6.png",
+    "index.html": "/myrealdeals/index.html",
+    "main.5da1358a.css.map": "/myrealdeals/static/css/main.5da1358a.css.map",
+    "main.6931684c.js.map": "/myrealdeals/static/js/main.6931684c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5da1358a.css",
+    "static/js/main.6931684c.js"
+  ]
+}
