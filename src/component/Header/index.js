@@ -1,17 +1,14 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-//import NavDropdown from "react-bootstrap/NavDropdown";
-import { NavLink, Link } from "react-router-dom";
+import './Header.css'
 import { CgProfile } from "react-icons/cg";
 import { AiFillLock } from "react-icons/ai";
 
 const Header = (props) => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
+    <div>
+    {/*<Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
       <Container>
-        {/*<Navbar.Brand href="#home">Admin Dashboard</Navbar.Brand>*/}
+        {/*<Navbar.Brand href="#home">Admin Dashboard</Navbar.Brand>
         <Link to="/" className="navbar-brand">
           <img src="./logo.png" alt="logo" height={50}/>
         </Link>
@@ -37,7 +34,7 @@ const Header = (props) => {
             {/*<Nav.Link href="#deets">More deets</Nav.Link>*
             <Nav.Link eventKey={2} href="#memes">
               Signin
-            </Nav.Link>*/}
+            </Nav.Link>
             <li className="nav-item">
               <NavLink to="/signin" className="nav-link">
                 <CgProfile />
@@ -52,13 +49,33 @@ const Header = (props) => {
             </li>
             <li className="nav-item">
               <NavLink to="/signup" className="nav-link">
-                post a deal
+                <Button variant="danger">Post a Deal</Button>
               </NavLink>
             </li>
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+          </Navbar>*/}
+    <section className="h-wrapper">
+      <div className="flexCenter paddings innerWidth h-container">
+          <img src="./logo.png" alt='logo' width={100}/> 
+          <div className="flexCenter h-menu">
+            <a href='/'>ABOUT</a>
+            <a href='/'>MARKETPLACE</a>
+            <a href='/'>MASTERCLASS</a>
+            <a href='/'>MEDIA</a>
+            <a href='/'>MEMBERSHIP</a>
+            <a href='/'><CgProfile/>REGISTER</a>
+            <a href='/'><AiFillLock/>LOGIN</a>
+            <button className="button">
+              <a href='/'>POST A DEAL</a>
+            </button>
+          </div>
+      </div>
+    </section>
+
+
+    </div>
   );
 };
 
