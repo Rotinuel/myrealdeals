@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Ola",
+        "details": "Realtor",
+        "image": "./Ola_Realtor.png"
+    },
+    {
+        "name": "Richard",
+        "details": "Plumber",
+        "image": "./Richard_Plumberr.png"
+    },
+    {
+        "name": "Emeka",
+        "details": "Tiler",
+        "image": "./Emeka_Tiler.png"
+    },
+    {
+        "name": "Adamu",
+        "details": "Builder",
+        "image": "./Adamu_Builder.png"
+    },
+    {
+        "name": "Ola",
+        "details": "Realtor",
+        "image": "./Ola_Realtor.png"
+    }
+]

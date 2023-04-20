@@ -1,0 +1,13 @@
+.c-container{
+    justify-content: space-between;
+    gap: 1rem;
+    background: #d3d3d3;
+}
+
+.c-container>img{
+    width: 9rem;
+}
+
+p{
+    font-size: 2rem;
+}
